@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agregar Noticias y Galería</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Agregar Noticias y Galería de Arte</h1>
+    </header>
+
+    <section>
+        <h2>Agregar Noticia</h2>
+        <form id="formNoticias">
+            <input type="text" id="tituloNoticia" placeholder="Título" required>
+            <textarea id="contenidoNoticia" placeholder="Contenido" required></textarea>
+            <button type="submit">Agregar Noticia</button>
+        </form>
+    </section>
+
+    <section id="noticias-contenido">
+        <h2>Noticias Agregadas</h2>
+        <!-- Las noticias se cargarán aquí -->
+    </section>
+
+    <section>
+        <h2>Agregar Imagen a la Galería</h2>
+        <form id="formGaleria">
+            <input type="text" id="descripcionImagen" placeholder="Descripción" required>
+            <input type="file" id="imagenInput" accept="image/*" required>
+            <button type="submit">Agregar Imagen</button>
+        </form>
+    </section>
+
+    <section id="galeria-contenido">
+        <h2>Galería de Arte</h2>
+        <!-- Las imágenes se cargarán aquí -->
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Colegio 4018 Abraham Valdelomar. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script_agregar.js"></script>
+</body>
+</html>
